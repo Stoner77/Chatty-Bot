@@ -49,15 +49,15 @@ public class SimpleBot {
         // write your code here
         int resp;
         do {
-            System.out.println("Why do we use methods?");
-            System.out.println("1. To repeat a statement multiple times.\n2. To decompose a program into several small subroutines.\n3. To determine the execution time of a program.\n4. To interrupt the execution of a program");
-            resp = scanner.nextInt();
-            if (resp != 2){
-                System.out.println("Please, try again.");
-            }
-
+          System.out.println("Why do we use methods?");
+          System.out.println("1. To repeat a statement multiple times.\n2. To decompose a program into several small subroutines.\n3. To determine the execution time of a program.\n4. To interrupt the execution of a program");
+          resp = scanner.nextInt();
+          if (resp != 2){
+              System.out.println("Please, try again.");
+          }
+            
         } while (resp == 2);
-
+       
     }
 
     static void end() {
