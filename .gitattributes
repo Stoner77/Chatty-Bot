@@ -1,0 +1,5 @@
+
+*.html linguist-detectable=false
+*.java linguist-detectable=true
+*.htm linguist-detectable=false
+
